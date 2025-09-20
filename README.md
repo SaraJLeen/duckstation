@@ -1,3 +1,5 @@
+This fork (original work by author stenzek at [https://github.com/stenzek/duckstation](https://github.com/stenzek/duckstation) or [https://duckstation.org/](https://duckstation.org/)) has been slightly changed to allow loading of replacement textures with the "FFFFFFFFFFFFFFFF" palette hash regardless of what palette is actually in use. No major modifications have been made. This change, which I am disclosing under the rules of the license, is so small -- a single line of code -- that I confidently believe it does not qualify as adaptation or derivative under the rules of the license, or as a derivative work under copyright law of my country. Nothing else has been altered except for the addition of this note about this change to this readme. I will still willingly take this fork down upon any request from the original author.
+
 # DuckStation - PlayStation 1, aka. PSX Emulator
 
 [Features](#features) | [Downloading and Running](#downloading-and-running) | [Building](#building) | [Disclaimers](#disclaimers)

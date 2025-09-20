@@ -2933,6 +2933,7 @@ bool GPUTextureCache::IsMatchingReplacementPalette(HashType full_palette_hash, G
     return true;
 
   const u32 full_pal_max = GetPaletteWidth(mode) - 1;
+  if (name.pal_hash == 18446744073709551615) return true;
   if (name.pal_min == 0 && name.pal_max == full_pal_max)
     return (name.pal_hash == full_palette_hash);
 
